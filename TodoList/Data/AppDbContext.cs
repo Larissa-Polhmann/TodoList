@@ -13,6 +13,6 @@ namespace TodoList.Data
 
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseMySQL("server=localhost;uid=root;pwd=@Sasuke27;database=TodoList");
+            => optionsBuilder.UseMySQL("server=localhost;uid=root;pwd=123456;database=TodoList");
     }
 }
